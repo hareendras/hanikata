@@ -45,7 +45,7 @@
 
 
       <?php if( (!defined('MULTISITE') || MULTISITE==0) && osc_get_preference('footer_link', 'sigma') !== '0') {
-        echo '<div class="copy">' . sprintf(__('Powered by <a title="Osclass classifieds script" href="%s">best classifieds scripts</a> osclass'), 'https://osclass-classifieds.com') . '</div>';
+        echo '<div class="copy">' . sprintf(__('<a title="Osclass classifieds script" href="%s">0715249388</a> Hareendra'), '#') . '</div>';
       } ?>
 
       <?php if ( osc_count_web_enabled_locales() > 1) { ?>
