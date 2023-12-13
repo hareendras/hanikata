@@ -57,7 +57,9 @@
         <?php } ?>
 
         <?php if( osc_users_enabled() || ( !osc_users_enabled() && !osc_reg_user_post() )) { ?>
-          <a class="publish isTablet isDesktop" href="<?php echo osc_item_post_url_in_category() ; ?>"><?php _e("Publish Ad", 'sigma');?></a>
+		<!-- commented below line on 13th dec 23 to disable pubish add button -->
+         <!-- <a class="publish isTablet isDesktop" href="<?php echo osc_item_post_url_in_category() ; ?>"><?//php _e("Publish Ad", 'sigma');?></a> -->
+		 <!-- end -->
         <?php } ?>
       </div>
     </div>
